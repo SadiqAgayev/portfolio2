@@ -7,7 +7,7 @@ import {BsGithub} from 'react-icons/bs'
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professioanl Coder.", "Web Developer.", "Freelance Trainer."],
+    words: ["Professional Coder.", "Web Developer.", "Freelance Trainer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,

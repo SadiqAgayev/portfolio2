@@ -9,7 +9,7 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full py-20 border-b-[1px] border-b-white"
     >
       <div className="flex justify-center text-center">
         <Title title="Features" des="What I Do" />

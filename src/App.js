@@ -2,7 +2,8 @@ import "./App.css";
 import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
 import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects/Projects"
+import Projects from "./components/projects/Projects";
+import Resume from "./components/resume/Resume";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Banner />
         <Features />
         <Projects />
+        <Resume />
       </div>
     </div>
   );
