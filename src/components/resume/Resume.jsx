@@ -6,6 +6,7 @@ import Skills from "./Skills";
 
 const Resume = () => {
   const resumeTabs = ["Education", "Professional Skills", "Experience"];
+  const components = [<Education />, <Skills />, <Experience />]
   const [activeTab, setActiveTab] = useState(0);
 
   return (
@@ -28,9 +29,10 @@ const Resume = () => {
           ))}
         </ul>
       </div>
-      {[<Education />, <Skills />, <Experience />].map(
-        (tab, i) => i === activeTab && tab
-      )}
+      {components
+        .map(
+          (tab, i) => i === activeTab && <React.Fragment key={i}>{tab}</React.Fragment>
+        )}
     </section>
   );
 };
