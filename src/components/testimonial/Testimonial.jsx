@@ -10,7 +10,7 @@ function SampleNextArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-0 shadow-shadowOne cursor-pointer z-10"
+      className="w-14 h-12 bg-[#0c1821] hover:bg-white duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-0 cursor-pointer z-10"
       onClick={onClick}
     >
       <HiArrowRight />
@@ -22,7 +22,7 @@ function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-20 shadow-shadowOne cursor-pointer z-10"
+      className="w-14 h-12 bg-[#0c1821] hover:bg-white duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-20 cursor-pointer z-10"
       onClick={onClick}
     >
       <HiArrowLeft />
@@ -109,14 +109,14 @@ const Testimonial = () => {
         <Slider {...settings}>
           <div className="w-full">
             <div className="w-full h-full lgl:h-[500px] flex flex-col lgl:flex-row justify-between">
-              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col md:flex-row lgl:flex-col justify-center gap-8 p-8 rounded-lg shadow-shadowOne">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col md:flex-row lgl:flex-col justify-center gap-8 p-8 rounded-lg">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg"
                   src={testimonial1}
                   alt="testimonial1"
                 />
                 <div>
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                  <p className="text-xs uppercase text-red-700 tracking-wide mb-2">
                     Bound - Trolola
                   </p>
                   <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
@@ -131,7 +131,7 @@ const Testimonial = () => {
                   style={{ color: "#ff014f" }}
                   size={100}
                 />
-                <div className="w-full h-[75%] px-[30px] bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne flex flex-col justify-center gap-8">
+                <div className="w-full h-[75%] px-[30px] bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg flex flex-col justify-center gap-8">
                   <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">

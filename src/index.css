@@ -12,6 +12,18 @@
   .resumLi {
     @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;
   }
+
+  .bgOpacity {
+    @apply bg-black bg-opacity-40;
+  }
+
+  .contactInput {
+    @apply w-full h-12 rounded-lg border-b border-b-gray-600 bg-[#191b1e] text-white px-4 active:outline-none focus-visible:outline-red-700 outline-none focus-visible:border-b-transparent duration-300;
+  }
+
+  .contactTextarea {
+    @apply w-full rounded-lg border-b border-b-gray-600 bg-[#191b1e] text-white px-4 py-2 active:outline-none focus-visible:outline-red-700 outline-none focus-visible:border-b-transparent duration-300 resize-none;
+  }
 }
 
 .active {
