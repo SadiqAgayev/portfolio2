@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full py-20 border-b-[1px] border-b-white"
+      className="w-full py-20 border-b border-b-white px-6 mdl:px-10 lg:px-16"
     >
       <div className="flex justify-center text-center">
         <Title
@@ -15,7 +15,7 @@ const Projects = () => {
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-3 gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectCard
           title="E-commerce Website"
           des="Lorem, ipsum color sit amet consectetur adipisicing elit.

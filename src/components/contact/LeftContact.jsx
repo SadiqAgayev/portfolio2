@@ -4,7 +4,7 @@ import { contactImage } from "../../assets";
 
 const LeftContact = () => {
   return (
-    <div className="w-full lgl:w-[35%] h-full flex flex-col gap-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] px-8 py-9 rounded-lg shadow-shadowOne">
+    <div className="w-full lgl:w-[35%] h-full flex flex-col gap-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] px-8 py-9 rounded-lg">
       <img
         className="w-full h-64 mb-3 rounded-lg"
         src={contactImage}
@@ -21,11 +21,11 @@ const LeftContact = () => {
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone:{" "}
-          <span className="text-lightText">+994(50) 858 87 61</span>
+          <span className="text-white">+994(50) 858 87 61</span>
         </p>
         <p>
           Email:{" "}
-          <span className="text-lightText">sadiqagayev820@gmail.com</span>
+          <span className="text-white">sadiqagayev820@gmail.com</span>
         </p>
       </div>
       <div className='mt-3'>

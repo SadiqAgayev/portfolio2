@@ -2,9 +2,9 @@ import React from "react";
 import ResumeCard from "./ResumeCard";
 
 const descriptions = {
-  job1: {
-    title: "Lorem Ipsum",
-    subTitle: "Frontend Developer ( 02.2018 - Present )",
+  embawood: {
+    title: "Embawood LLC",
+    subTitle: "Frontend Developer ( 02.2022 - Present )",
     result: "present",
     des: [
       "Optimization of functionalities on existing sites",
@@ -12,9 +12,9 @@ const descriptions = {
       "Testing the website for usability",
     ],
   },
-  job2: {
-    title: "Lorem Ipsum",
-    subTitle: "Freelance ( 2018 - Present )",
+  trainer: {
+    title: "Frontend Trainer",
+    subTitle: "Freelance ( 2020 - Present )",
     result: "present",
     des: [
       "HTML, CSS, Bootstrap, Tailwind, JS",
@@ -35,9 +35,9 @@ const Experience = () => {
       </div>
       <div className="flex gap-x-20">
         {Object.keys(descriptions).length ? (
-          <div className="w-full mt-14 border-opacity-30 flex gap-20">
+          <div className="w-full mt-14 border-opacity-30 flex flex-col lg:flex-row gap-20">
             {Object.values(descriptions).map((value) => (
-              <div className="w-full border-l-[6px] border-l-white">
+              <div className="w-full border-l-[6px] border-l-white border-opacity-80">
                 <ResumeCard
                   direction="right"
                   title={value.title}
@@ -56,3 +56,4 @@ const Experience = () => {
 };
 
 export default Experience;
+

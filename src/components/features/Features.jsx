@@ -9,12 +9,12 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="w-full py-20 border-b-[1px] border-b-white"
+      className="w-full py-20 border-b border-b-white px-6 mdl:px-10 lg:px-16"
     >
       <div className="flex justify-center text-center">
         <Title title="Features" des="What I Do" />
       </div>
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20">
         <Card
           title="Business Stratagy"
           des="Lorem ipsum dolor sit amet consestetur adipisicing elit. Atque soluta hic consequuntur eum repellendus ad."

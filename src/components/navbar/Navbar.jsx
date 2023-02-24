@@ -9,9 +9,9 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="w-full h-24 sticky top-0 z-50 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-6 mdl:px-10 lg:px-16">
+    <div className="w-full h-24 sticky top-0 z-50 bg-black mx-auto flex justify-between items-center font-titleFont border-b border-b-gray-600 px-6 mdl:px-10 lg:px-16">
       <div className="h-[100%] flex items-center">
-        <img src={logo} alt="logo" className="h-[70%] rounded-[50%]" />
+        <img src={logo} alt="logo" className="h-16 w-16 object-cover rounded-[50%]" />
         <span className="pl-3">AGHAYEV</span>
       </div>
       <div>
@@ -51,7 +51,7 @@ const Navbar = () => {
                   <img
                     src={logo}
                     alt="logo"
-                    className="h-[70%] rounded-[50%]"
+                    className="w-16 h-16 object-cover rounded-[50%]"
                   />
                   <span className="pl-3">AGHAYEV</span>
                 </div>
@@ -116,6 +116,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
