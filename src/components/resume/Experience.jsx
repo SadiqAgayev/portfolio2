@@ -3,8 +3,8 @@ import ResumeCard from "./ResumeCard";
 
 const descriptions = {
   embawood: {
-    title: "Embawood LLC",
-    subTitle: "Frontend Developer ( 02.2022 - Present )",
+    title: "lorem ipsum",
+    subTitle: "Frontend Developer ( 02.2010 - Present )",
     result: "present",
     des: [
       "Optimization of functionalities on existing sites",
@@ -13,8 +13,8 @@ const descriptions = {
     ],
   },
   trainer: {
-    title: "Frontend Trainer",
-    subTitle: "Freelance ( 2020 - Present )",
+    title: "lorem ipsum",
+    subTitle: "Freelance ( 2010 - Present )",
     result: "present",
     des: [
       "HTML, CSS, Bootstrap, Tailwind, JS",

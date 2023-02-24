@@ -12,15 +12,15 @@ const Education = () => {
         <div className="w-full lg:w-1/2 mt-14 border-r-[3px] border-r-white border-opacity-80 flex flex-col gap-10">
           <ResumeCard
             direction="left"
-            title="Azerbaijan Technical University"
-            subTitle="Master ( 2022 - 2024 )"
+            title="lorem ipsum"
+            subTitle="Master ( 2010 - ... )"
             result="present"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <div className="h-[200px] hidden lg:block"></div>
           <ResumeCard
             direction="left"
-            title="Private Tutor's Course"
+            title="lorem ipsum"
             subTitle="Frontend Developer ( 2019 - 2020 )"
             result="95+"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
@@ -30,16 +30,16 @@ const Education = () => {
           <div className="h-[200px] hidden lg:block"></div>
           <ResumeCard
             direction="right"
-            title="Baku Engineering University"
-            subTitle="Bachelor ( 2018 - 2022 )"
+            title="lorem ipsum"
+            subTitle="Bachelor ( 2010 - ... )"
             result="90"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <div className="h-[200px] hidden lg:block"></div>
           <ResumeCard
             direction="right"
-            title="Zarifa Aliyeva High School"
-            subTitle="High School ( 2015 - 2018 )"
+            title="lorem ipsum"
+            subTitle="High School ( 2010 - ... )"
             result="4.8"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
